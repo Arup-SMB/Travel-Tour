@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .primary {
+        @apply text-[#ff4838];
+    }
+    .bg-primary {
+        @apply bg-[#ff4838]
+    }
+    .primary-btn {
+        @apply text-base text-white font-semibold px-5 py-4 bg-primary transition-all duration-500 hover:border-2 hover:border-[#ff4838] hover:bg-transparent hover:text-[#ff4838];
+    }
+    .secondary-btn {
+        @apply text-base font-semibold px-5 py-4 bg-transparent text-[#ff4838] border-2 border-[#ff4838] transition-all duration-500 hover:border-none hover:bg-primary hover:text-white;
+    }
+
+}
+.card-lavel {
+    clip-path: polygon(9% 0, 90% 3%, 100% 94%, 0 100%);
+    transform: translateY(50%);
+}
+/* .owl-dots {
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+    transform: transSlate(-50%, 0);
+}
+.owl-dot {
+    margin-top: 20px;
+    text-align: center;
+}
+.owl-dot > span {
+    display: block;
+    height: 8px;
+    width: 8px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #eee;
+}         
+.owl-dot.active > span {
+    border: none;
+    border-radius: 10px;
+    background-color: #9f1c33;
+    width: 50px;
+    height: 5px;
+    transition: .5s;
+}
+
+.promo-box-left::before {
+    position: absolute;
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    top: 0;
+    right: 43%;
+    width: 70px;
+    height: 100%;
+    transform: skewX(45deg);
+    z-index: -1;
+}
+.promo-box-left::after {
+    position: absolute;
+    background: #9f1c33 none repeat scroll 0 0;
+    content: "";
+    top: 0;
+    right: 55%;
+    width: 2030px;
+    height: 100%;
+    transform: skewX(45deg);
+    z-index: -1;
+}
+
+/* Testimonial Buttons */
+/* .btn-slider .owl-prev{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(0, -50%);
+    display: flex;
+    z-index: 100;
+}
+@media screen and (max-width: 768px){
+    .btn-slider .owl-prev{
+        position: absolute;
+        top: 90%;
+        left: 50px;
+        transform: translate(0, -50%);
+        display: flex;
+        z-index: 100;
+    }
+}
+.btn-slider .owl-next{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(0, -50%);
+    display: flex;
+    z-index: 100;
+}
+@media screen and (max-width: 768px) {
+    .btn-slider .owl-next{        
+        position: absolute;
+        top: 90%;
+        right: 20%;
+        transform: translate(0, -50%);
+        display: flex;
+        z-index: 100;
+    }   
+} */
