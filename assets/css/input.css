@@ -17,6 +17,22 @@
     }
 
 }
+.btn-slider-banner .owl-prev{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(0, -50%);
+    display: flex;
+    z-index: 100;
+}
+.btn-slider-banner .owl-next{
+    position: absolute;
+    top: 80%;
+    left: 85%;
+    transform: translate(0, -50%);
+    display: flex;
+    z-index: 100;
+}
 .card-lavel {
     clip-path: polygon(9% 0, 90% 3%, 100% 94%, 0 100%);
     transform: translateY(50%);
@@ -48,39 +64,16 @@
     transition: .5s;
 }
 
-.promo-box-left::before {
-    position: absolute;
-    background: #fff none repeat scroll 0 0;
-    content: "";
-    top: 0;
-    right: 43%;
-    width: 70px;
-    height: 100%;
-    transform: skewX(45deg);
-    z-index: -1;
-}
-.promo-box-left::after {
-    position: absolute;
-    background: #9f1c33 none repeat scroll 0 0;
-    content: "";
-    top: 0;
-    right: 55%;
-    width: 2030px;
-    height: 100%;
-    transform: skewX(45deg);
-    z-index: -1;
-}
 
 /* Testimonial Buttons */
-/* .btn-slider .owl-prev{
+.btn-slider .owl-prev{
     position: absolute;
-    top: 50%;
-    left: 20%;
+    bottom: 0;
+    left: 70%;
     transform: translate(0, -50%);
     display: flex;
-    z-index: 100;
 }
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     .btn-slider .owl-prev{
         position: absolute;
         top: 90%;
@@ -89,16 +82,15 @@
         display: flex;
         z-index: 100;
     }
-}
+} */
 .btn-slider .owl-next{
     position: absolute;
-    top: 50%;
-    right: 20%;
+    bottom: 0;
+    right: 10%;
     transform: translate(0, -50%);
-    display: flex;
-    z-index: 100;
+    display: flex;    
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .btn-slider .owl-next{        
         position: absolute;
         top: 90%;
