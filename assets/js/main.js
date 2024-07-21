@@ -5,12 +5,21 @@ $(".hero-area").owlCarousel({
     dots: true,
     autoplayTimeout: 3000,
     smartSpeed: 750,
+    autoplayHoverPause: true,
 });
 $(".top-destination").owlCarousel({
     items: 5,
     loop: true,
     autoplay: true,
-    dots: true,    
+    dots: true,
+    autoplayTimeout: 3000,
+    smartSpeed: 750,
+});
+$(".testimonial-carousel").owlCarousel({
+    items: 3,
+    loop: true,
+    autoplay: true,
+    dots: true,
     autoplayTimeout: 3000,
     smartSpeed: 750,
 });

@@ -13,7 +13,7 @@
         @apply text-base text-white font-semibold px-5 py-4 bg-primary transition-all duration-500 hover:border-2 hover:border-[#ff4838] hover:bg-transparent hover:text-[#ff4838];
     }
     .secondary-btn {
-        @apply text-base font-semibold px-5 py-4 bg-transparent text-[#ff4838] border-2 border-[#ff4838] transition-all duration-500 hover:border-none hover:bg-primary hover:text-white;
+        @apply text-base font-semibold px-5 py-4 bg-transparent text-[#ff4838] border-2 border-[#ff4838] transition-all duration-500 hover:bg-primary hover:text-white;
     }
 
 }
